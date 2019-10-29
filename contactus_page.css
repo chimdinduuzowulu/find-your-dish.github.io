@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+/* the header container............. */
+.nav{
+    background-color: rgb(105, 87, 105);
+    max-width: 100%;
+    height: 100px;
+    position: relative;
+}
+/* the register button........ */
+.nav .show{
+    position: absolute;
+    right: 10px;top:20px;
+border-radius:20px; }
+/* the register button */
+.nav .show button{
+    position: absolute;
+    border-radius: 20px;
+}
+
+h2{color: white;
+text-shadow: 4px 2px 3px black;
+font-style: oblique;
+font-size: 40px;
+font-weight: bold;
+}
+/* javascript displaying id pointer */
+/* #form{
+    display: none;
+} */
+.form{
+    margin: 20px;
+    margin-top: 50px;
+    border: 0.5px solid black;
+    max-width: 500px;
+    padding: 30px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius:10px; 
+    box-shadow: 2px 2px 2px whitesmoke;
+    margin-bottom: 80px;
+}
+.form p{padding: 20px;}
+.form #in {
+    width: 80%;
+    height: 30px;
+    border-radius:5px; 
+}
+/* the send button */
+.form #send
+{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}

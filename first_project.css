@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+/* the header content */
+.header h3 {
+    text-align: center;
+    margin-top:10px; 
+    color: white;
+    text-shadow: 4px 2px 4px black;
+}
+.header{margin-bottom:20px;padding: 10px;width:80%;margin:auto;  }
+/* the background image */
+html{
+    background-image: url(images/sixteen.jpg);
+    background-position: cover;
+    background-attachment:fixed;
+    position: relative;
+}
+/* .container{width: 100%;} */
+/* the navbar contents */
+nav{
+    height: 20px;
+    margin: 10px;
+    border-radius:25px;
+    background:rgba(141, 146, 141, 0.3);
+    padding: 20px;
+   
+    /* position: sticky; */
+}
+nav ul li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    width: 150px;
+}
+
+nav ul{
+     display:flex;
+}
+
+/* for the active class */
+.navbar  li a#active {background: rgb(66, 192, 66);padding: 8px;border-radius:5px; }
+/* hovering over all the other nav content apart from the active class */
+.navbar li a:hover{
+    background: rgb(33, 39, 33);
+    padding: 8px;
+    border-radius: 5px;
+}
